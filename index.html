@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulador de Comissão</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Simulador de Comissão</h1>
+    <h4>Unidade Macaíba</h4>
+    <h4>SOLAR | Coca-Cola</h4><br>
+    
+    <label for="funcao">Selecione a Função:</label>
+    <select id="funcao">
+      <option value="motorista">Motorista</option>
+      <option value="auxiliar">Auxiliar de entrega</option>
+    </select><br><br>
+
+    <label for="tipo">Selecione o Tipo:</label>
+    <select id="tipo">
+      <option value="padrao">Padrão</option>
+      <option value="alta">Alta</option>
+    </select><br><br>
+    
+    <label for="cubagem">Qtde. Cubos:</label>
+
+            <input type="number" id="cubagem" name="cubagem" placeholder="Digite a cubagem" required><br><br>
+
+    <label for="quantidadeCliente">Qtde. Clientes:</label>
+
+            <input type="number" id="quantidadeCliente" name="quantidadeCliente" placeholder="Digite quantidade cliente" required><br><br><br>
+    
+    <button onclick="calcularComissao()">Calcular Comissão</button><br><br>
+    
+    <p id="resultado">Resultado:</p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
