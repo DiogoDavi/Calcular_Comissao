@@ -1,9 +1,9 @@
   .container {
     text-align: center;
     padding: 30px;
-    border: 3px solid #ccc;
-    border-radius: 10px;
-    width: 400px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    width: 350px;
   }
   
 body {
